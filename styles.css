@@ -10,6 +10,7 @@ body{
     padding-top: 90px;
     background: rgb(254, 253, 249);
     color:black;
+    display:grid;
 }
 #heading{
     display: flex;
