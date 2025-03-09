@@ -1,0 +1,292 @@
+*, ::after, ::before{
+    font-family:'Lato', sans-serif;
+    font-size: small;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding-top: 90px;
+    background: rgb(254, 253, 249);
+    color:black;
+}
+#heading{
+    display: flex;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(255, 99, 71);
+    background-color:rgb(254, 253, 249);
+    box-shadow: 1px 5px 7px rgba(252, 199, 191, 0.632);
+}
+#header-img{
+    width:100px;
+    height: auto;
+    margin-right: 10px;
+   
+}
+h1{
+    font-size: 30px;
+    color: tomato;
+}
+#tit{
+    flex:1;
+    max-width: 500px;
+    display: flex;
+    align-items:center;
+    
+    
+
+}
+#nav-bar{
+    width:300px;
+    margin-left: 70px;
+    color:tomato;
+    display: flex;
+    align-items: center;
+    
+}
+
+li{
+    font-size: 15px;
+    list-style: none;
+    display: inline-block;
+    margin:0 10px 0 ;
+    font-weight: 500;
+    border: 1px solid tomato;
+    padding: 10px;
+    border-radius: 5px;
+}
+li:hover{
+    background-color: tomato;
+    color:white;
+}
+
+#form{
+    text-align: center;
+    margin: 20px;
+    margin-bottom: -30px;
+}
+#email{
+    margin-top: 20px;
+    
+    font-size: 15px;
+    padding: 10px;
+    border: 2px solid tomato;
+    border-radius: 7px;
+    background-color:rgb(254, 253, 249);
+    color: tomato;
+    width: 250px;
+    box-shadow: inset 1px 2px 7px rgba(0, 0, 0, 0.219);
+}
+#submit{
+    font-size: 14px;
+    padding: 10px;
+    border: 2px solid tomato;
+    border-radius: 7px;
+    background-color: tomato;
+    color: white;
+}
+#submit:hover{
+    background-color: rgb(254, 253, 249);
+    border-color: tomato;
+    color: tomato;
+}
+
+.shop-info {
+    margin-left: 5%;
+    margin-right:5%;
+    font-size: 40px;
+    line-height: 28px;
+    padding: 30px;
+    font-weight: 700;
+    color: tomato;
+
+
+}
+.shop-info p::before{
+    content:"_______ ";
+    color:transparent;
+}
+#below{
+    margin-left: 5%;
+    margin-right:5%;
+    font-size: 19px;
+    line-height: 28px;
+    padding: 30px;
+    font-weight: 800;
+    color: tomato;
+    text-align: center;
+    margin-bottom: -20px;
+}
+
+#products{
+    padding: 10px;
+    margin: 20px;
+    
+    margin-bottom: -50px;
+}
+
+#items{
+    border: 2px solid rgba(0, 0, 0, 0.6);
+    width :400px;
+    height: auto;
+    padding: 30px;
+    margin: auto;
+    margin-bottom: 20px;   
+    border-radius: 20px;
+    background-color: tomato;
+    color:white;
+    box-shadow: 3px 6px 7px rgba(123, 48, 35, 0.539);
+    
+}
+
+#buy{
+    width:70px;
+    height: 30px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-top: 22px;
+    border: 2px solid aliceblue;
+    border-radius: 7px;
+    background-color: tomato;
+    color: aliceblue;
+    font-size: 12px;
+    padding: 4px;
+    font-weight: bold;
+}
+#buy:hover{
+    color: tomato;
+    background-color: white;
+    border-color: tomato;
+}
+
+#products img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+#product-name{
+    font-size: 28px;
+    text-align: center;
+    font-weight: 600;
+
+}
+#video{
+    display: block;
+    margin: auto;
+    width: 500px;
+    height: 300px;
+    border-radius: 7px;
+    margin-top: -30px;
+    
+}
+#contact{
+   
+    font-size: 20px;
+    line-height: 28px;
+    padding: 30px;
+    font-weight: 800;
+    color: tomato;
+    text-align: center;
+
+}
+address{
+    border-top: 1px solid tomato;
+    box-shadow: -1px -6px 7px rgba(252, 199, 191, 0.632);
+    
+}
+#adds{
+    text-align: center;
+    color: tomato;
+}
+address p{
+    margin-top: 7px;
+    margin-right: 5px;
+}
+#one{
+    margin-top: 17px;
+    font-weight: 800;
+}
+#two{
+    text-decoration:underline;
+}
+#three{
+    color:rgba(255, 99, 71, 0.726)
+}
+hr{
+    border: 1px solid rgba(255, 99, 71, 0.776);
+    border-radius: 5px;
+    width: 80%;
+    margin: auto;
+    margin-top:50px ;
+    margin-bottom: 50px;
+}
+a{
+    all:unset;
+}
+@media only screen and (max-width: 600px) {
+    #heading{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        border-bottom: 1px solid rgb(255, 99, 71);
+        background-color:rgb(254, 253, 249);
+        box-shadow: 1px 5px 7px rgba(252, 199, 191, 0.632);
+        
+    }
+    #header-img{
+        width:100px;
+        height: auto;
+        margin-right: 30px;
+       
+    }
+    h1{
+        font-size: 24px;
+        color: tomato;
+    }
+    #tit{
+        flex:1;
+        max-width: 200px;
+        margin-left: -9px;
+    
+    }
+    #nav-bar{
+        width:400px;
+        color:tomato;
+        display: flex;
+        justify-content: end;
+        margin: auto;
+        
+        
+    }
+    
+    li{
+        font-size: 10px;
+        list-style: none;
+        font-weight: 500;
+        border: 1px solid tomato;
+        padding: 8px;
+        border-radius: 5px;
+    }
+}
+@media only screen and (min-width:1250px){
+    #tit{
+        flex:1;
+        max-width: 500px;
+        display: flex;
+        align-items:center;
+        margin-left:-300px ;
+        
+}                               
+}
